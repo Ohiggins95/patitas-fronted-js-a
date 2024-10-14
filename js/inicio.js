@@ -3,7 +3,7 @@
  * En caso deseas ejecutar el JS a penas se haya cargado el DOM:
  * -> document.addEventListener('DOMContentLoaded', {})
  * -> En la importación del script, agregando el atributo "defer"
- */
+ **/
 window.addEventListener('load', function(){
     
     // referenciar elementos de la pagina
@@ -44,7 +44,7 @@ function ocultarAlerta() {
 
 async function autenticar(){
     
-    const url = 'http://localhost:8082/login/autenticar-async';
+    const url = 'http://localhost:8083/login/autenticar-async';
     const data = {
         tipoDocumento: tipoDocumento.value,
         numeroDocumento: numeroDocumento.value,
