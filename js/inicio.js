@@ -3,7 +3,7 @@
  * En caso deseas ejecutar el JS a penas se haya cargado el DOM:
  * -> document.addEventListener('DOMContentLoaded', {})
  * -> En la importación del script, agregando el atributo "defer"
- **/
+ */
 window.addEventListener('load', function(){
     
     // referenciar elementos de la pagina
